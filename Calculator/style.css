@@ -7,9 +7,6 @@ body {
     font-family: 'Chewy', cursive;
 }
 
-/* .bg-red {
-    background: red;
-} */
 .button{
     padding: 20px;
     border: 2px solid black;
@@ -17,6 +14,10 @@ body {
     box-shadow: 5px 5px 5px;
     border-top-left-radius: 0;
     border-bottom-right-radius: 0;
+    font-weight: bold;
+}
+.button:hover{
+    color:rgb(161, 161, 161);
 }
 .row{
     box-shadow: 74px 74px 74px;
@@ -31,4 +32,19 @@ body {
     border-top-left-radius: 0;
     border-bottom-right-radius: 0;
     font-size: 17px;
+}
+
+.clear-color{
+    background-color: rgb(247 174 39);
+}
+.clear-color:hover{
+    background-color: rgba(247, 174, 39, 0.7);
+    color:white;   
+}
+.equalto{
+    background-color:rgb(131 126 115);
+}
+.equalto:hover{
+    background-color:rgb(201, 197, 190);
+    color:white;   
 }
